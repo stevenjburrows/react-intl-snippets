@@ -1,0 +1,9 @@
+{
+    "useIntl hook": {
+        "prefix": "imsg",
+        "body": [
+            "intl.formatMessage({ id: '$1', defaultMessage: '$0',})"
+        ],
+        "description": "React Intl intl hook"
+    }
+}

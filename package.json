@@ -1,7 +1,7 @@
 {
-  "name": "react-intl-snippits",
-  "displayName": "React Intl snippits",
-  "description": "code snippits for when you are using React Intl",
+  "name": "react-intl-snippets",
+  "displayName": "React Intl snippets",
+  "description": "code snippets for when you are using React Intl",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
@@ -12,8 +12,16 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
+        "language": "javascript",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/import.json"
       }
     ]
   }
