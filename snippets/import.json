@@ -1,16 +1,18 @@
 {
 	"Intl import FormattedMessage": {
 		"prefix": "intimpm",
-		"body": ["import { FormattedMessage } from 'react-intl';"],
+		"body": [
+			"import { FormattedMessage } from 'react-intl';"
+		],
 		"description": "Import React Intl with FormattedMessage"
 	},
-
 	"Intl import FormattedMessage and useIntl": {
 		"prefix": "intimpmd",
-		"body": ["import { FormattedMessage, useIntl } from 'react-intl';"],
+		"body": [
+			"import { FormattedMessage, useIntl } from 'react-intl';"
+		],
 		"description": "Import React Intl with FormattedMessage and useIntl"
 	},
-
 	"Intl import FormattedMessage and FormattedDate": {
 		"prefix": "intimpmd",
 		"body": [
@@ -18,7 +20,6 @@
 		],
 		"description": "Import React Intl with FormattedMessage and FormattedDate"
 	},
-
 	"Intl import FormattedMessage, useIntl and FormattedDate": {
 		"prefix": "intimpmid",
 		"body": [
@@ -26,15 +27,14 @@
 		],
 		"description": "Import React Intl with FormattedMessage, useIntl and FormattedDate"
 	},
-
 	// todo finish adding FormattedDateParts options
-
 	"Intl import FormattedDateParts": {
 		"prefix": "intimpdp",
-		"body": ["import { FormattedDateParts } from 'react-intl';"],
+		"body": [
+			"import { FormattedDateParts } from 'react-intl';"
+		],
 		"description": "Import React Intl with FormattedDateParts"
 	},
-
 	"Intl import FormattedMessage and FormattedDateParts": {
 		"prefix": "intimpmdp",
 		"body": [
@@ -42,7 +42,6 @@
 		],
 		"description": "Import React Intl with FormattedMessage and FormattedDateParts"
 	},
-
 	"Intl import FormattedMessage, useIntl and FormattedDateParts": {
 		"prefix": "intimpmidp",
 		"body": [
@@ -50,7 +49,6 @@
 		],
 		"description": "Import React Intl with FormattedMessage, useIntl and FormattedDateParts"
 	},
-
 	"Intl import FormattedMessage, FormattedDate and FormattedDateParts": {
 		"prefix": "intimpmidp",
 		"body": [
@@ -58,7 +56,6 @@
 		],
 		"description": "Import React Intl with FormattedMessage, FormattedDate and FormattedDateParts"
 	},
-
 	"Intl import FormattedMessage, useIntl and FormattedDateParts": {
 		"prefix": "intimpmidp",
 		"body": [
@@ -66,15 +63,13 @@
 		],
 		"description": "Import React Intl with FormattedMessage, useIntl and FormattedDateParts"
 	},
-
 	"Intl import FormattedMessage, useIntl, FormattedDate and FormattedDateParts": {
 		"prefix": "intimpmiddp",
 		"body": [
 			"import { FormattedMessage, useIntl, FormattedDate, FormattedDateParts } from 'react-intl';"
 		],
 		"description": "Import React Intl with FormattedMessage, useIntl, FormattedDate and FormattedDateParts"
-	}
-
+	},
 	"Intl import useIntl, FormattedDate and FormattedDateParts": {
 		"prefix": "intimpiddp",
 		"body": [
