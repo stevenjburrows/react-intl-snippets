@@ -76,16 +76,14 @@
 			"import { useIntl, FormattedDate, FormattedDateParts } from 'react-intl';"
 		],
 		"description": "Import React Intl with useIntl, FormattedDate and FormattedDateParts"
-	}
-
+	},
 	"Intl import useIntl and FormattedDateParts": {
 		"prefix": "intimpddp",
 		"body": [
 			"import { useIntl, FormattedDateParts } from 'react-intl';"
 		],
 		"description": "Import React Intl with useIntl and FormattedDateParts"
-	}
-
+	},
 	"Intl import FormattedDate and FormattedDateParts": {
 		"prefix": "intimpddp",
 		"body": [
