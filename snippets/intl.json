@@ -1,9 +1,65 @@
 {
-    "useIntl hook": {
+    "useIntl formatMessage hook": {
         "prefix": "imsg",
         "body": [
-            "intl.formatMessage({ id: '$1', defaultMessage: '$0',})"
+            "intl.formatMessage({ id: '${1}', defaultMessage: '${2}'})${0}"
         ],
-        "description": "React Intl intl hook"
+        "description": "React Intl intl.formatMessage hook"
+    },
+    "useIntl formatMessage hook with values": {
+        "prefix": "imsgv",
+        "body": [
+            "intl.formatMessage({",
+            "id: '${1}',",
+            "defaultMessage: '${2} <${3:b}>$4</${3:b}>'},",
+            "{",
+            "${5:b}: (chunks) => <${6:span}>{chunks}</${6:span} >",
+            "}",
+            ")${0}"
+        ],
+        "description": "React Intl intl.formatMessage hook with values"
+    },
+    "useIntl formatDate": {
+        "prefix": "idate",
+        "body": [
+            "intl.formatDate(${1:new Date()})${0}"
+        ],
+        "description": "React Intl intl.formatDate hook"
+    },
+    "useIntl formatDate parts": {
+        "prefix": "idp",
+        "body": [
+            "intl.formatDate(",
+            "${1:new Date()},",
+            "{",
+            "year: ${2:'2-digit'},",
+            "month: ${2:'long'},",
+            "day: ${2:'numeric'}",
+            "}",
+            ")${0}"
+        ],
+        "description": "React Intl intl.formatDate hook with parts"
+    },
+    "useIntl formatTime": {
+        "prefix": "itime",
+        "body": [
+            "intl.formatTime(${1:new Date()})${0}"
+        ],
+        "description": "React Intl intl.formatTime hook"
+    },
+    "useIntl formatTime parts": {
+        "prefix": "itp",
+        "body": [
+            "intl.formatTime(",
+            "${1:new Date()},",
+            "{",
+            "hour: '${2:numeric}',",
+            "minute: '${3:2-digit}',",
+            "second: '${4:2-digit}',",
+            "hour12: ${5:false},",
+            "}",
+            ")${0}"
+        ],
+        "description": "React Intl intl.formatTime hook with parts"
     }
 }

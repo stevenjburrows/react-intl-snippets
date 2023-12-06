@@ -1,11 +1,15 @@
 {
 	"cSpell.words": [
 		"fdate",
+		"ftime",
+		"idate",
 		"imsg",
+		"imsgv",
 		"intimpm",
 		"intimpmd",
 		"intimpmid",
 		"intimpmiddp",
-		"intimpmidp"
+		"intimpmidp",
+		"itime"
 	]
 }

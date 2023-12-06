@@ -1,27 +1,27 @@
 {
 	"Intl Formatted Message": {
 		"prefix": "fmsg",
-		"body": "<FormattedMessage id='$1' defaultMessage='$0' />",
+		"body": "<FormattedMessage id='${1}' defaultMessage='${2}' />${0}",
 		"description": "React Intl Formatted Message"
 	},
 	"Intl Formatted Message with value": {
 		"prefix": "fmsgv",
 		"body": [
 			"<FormattedMessage",
-			"id='ASSESSORS_INTERPRET_REPORT_ALERT'",
-			"defaultMessage='${1}<b>${2}</b> be ${3}'",
+			"id='${1}'",
+			"defaultMessage='${2}<${4:b}>${3}</${4:b}>${5}'",
 			"values={{",
-			"    b: chunks => (",
-			"        <${4:span} className='${0}'>{chunks}</span>",
+			"    ${4:b}: chunks => (",
+			"        <${6:span} className='${7}'>{chunks}</${6:span}>",
 			"    ),",
 			"}}",
-			"/>"
+			"/>${0}"
 		],
 		"description": "React Intl Formatted Message with values"
 	},
 	"Intl Formatted Date": {
 		"prefix": "fdate",
-		"body": "<FormattedDate value={${0:new Date()} />",
+		"body": "<FormattedDate value={${1:new Date()} />${0}",
 		"description": "React Intl Formatted Date"
 	},
 	"Intl Formatted Date Parts": {
@@ -31,14 +31,29 @@
 			"value={${1:new Date()}}",
 			"year=\"${2:numeric}\"",
 			"month=\"${3:numeric}\"",
-			"day=\"${0:numeric}\"",
-			"</FormattedDateParts>"
+			"day=\"${4:numeric}\"",
+			"</FormattedDateParts>${0}"
 		],
 		"description": "React Intl Formatted Date Parts"
 	},
 	"Intl Formatted Time": {
-		"prefix": "time",
-		"body": "<FormattedTime value={${0:new Date()} />",
+		"prefix": "ftime",
+		"body": "<FormattedTime value={${1:new Date()}} />${0}",
 		"description": "React Intl Formatted Time"
+	},
+	"Intl Formatted Time with parts": {
+		"prefix": "ftp",
+		"body": [
+			"<FormattedTimeParts value={${1: new Date()}} >",
+			"{parts => (",
+			"<>",
+			"{parts[0].value}",
+			"{parts[1].value}",
+			"{parts[2].value}",
+			"</>",
+			")}",
+			"</FormattedTimeParts>${0}"
+		],
+		"description": "React Intl Formatted Time with parts"
 	}
 }
