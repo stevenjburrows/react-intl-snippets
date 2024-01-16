@@ -6,4 +6,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
--   Initial release
+## 0.1
+
+### Added
+
+- import for FormattedMessage
+- import for useIntl
+- import for FormattedDate
+- import for FormattedDateParts
+- FormattedMessage component
+- FormattedDate component
+- FormattedDateParts component
+- FormattedTime component
+- FormattedTimeParts component
+- intl FormattedMessage API
+- intl FormattedDate API
+- intl FormattedDateParts API
+- intl FormattedTime API
+- intl FormattedTimeParts API
