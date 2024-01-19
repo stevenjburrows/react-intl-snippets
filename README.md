@@ -15,12 +15,12 @@ Open _Quick Open_:
 Paste the following command and press Enter:
 
 ```bash
-ext install
+ext install TheKiltedCoder.react-intl-snippets
 ```
 
 ### Extension Manager
 
-Open the extension manager with ctrl+shift+X (Win/Linux) or cmd+shift+X (macOS), search for `sdfsdfs` and click on the ` [Install``] ` button.
+Open the extension manager with ctrl+shift+X (Win/Linux) or cmd+shift+X (macOS), search for `React Intl snippets`Go directly to [the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TheKiltedCoder.react-intl-snippets) and click on the ` [Install]` button.
 
 Marketplace
 

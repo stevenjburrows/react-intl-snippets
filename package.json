@@ -2,7 +2,7 @@
   "name": "react-intl-snippets",
   "displayName": "React Intl snippets",
   "description": "code snippets for formatjs.io's React Intl",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/stevenjburrows/react-intl-snippets"
   },
+  "icon": "images/icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "categories": [
     "Snippets"
@@ -30,5 +31,12 @@
         "path": "./snippets/import.json"
       }
     ]
-  }
+  },
+  "keywords": [
+    "snippets",
+    "React",
+    "Intl",
+    "React Intl",
+    "FormatJS"
+  ]
 }

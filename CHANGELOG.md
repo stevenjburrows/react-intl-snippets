@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## 0.1.1
+
+## Updated 
+
+- README to include the snippets name in the marketplace and a link to the marketplace
+
+## Added
+
+- Image for the Marketplace
+
 ## 0.1
 
 ### Added
