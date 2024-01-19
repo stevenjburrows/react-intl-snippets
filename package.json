@@ -1,11 +1,17 @@
 {
   "name": "react-intl-snippets",
   "displayName": "React Intl snippets",
-  "description": "code snippets for when you are using React Intl",
+  "description": "code snippets for formatjs.io's React Intl",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
   },
+  "publisher": "TheKiltedCoder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenjburrows/react-intl-snippets"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
   "categories": [
     "Snippets"
   ],
