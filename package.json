@@ -2,7 +2,7 @@
   "name": "react-intl-snippets",
   "displayName": "React Intl snippets",
   "description": "code snippets for formatjs.io's React Intl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -28,6 +28,66 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/formatted.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/intl.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/import.json"
       }
     ]

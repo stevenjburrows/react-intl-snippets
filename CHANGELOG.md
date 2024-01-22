@@ -6,9 +6,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## 0.1.2
+
+### Added
+
+- added more languages to the package.json
+
+### Updated
+
+- updated the license
+
 ## 0.1.1
 
-## Updated 
+### Updated
 
 - README to include the snippets name in the marketplace and a link to the marketplace
 
